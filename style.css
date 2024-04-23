@@ -63,6 +63,35 @@ button:hover {
   padding: 25px;
 }
 
+.card.easy {
+  border: 10px solid #4f7d5d;
+  padding: 25px;
+}
+
+.card.medium {
+  border: 10px solid yellow;
+  padding: 25px;
+}
+
+.card.hard {
+  border: 10px solid red;
+  padding: 25px;
+}
+
+
 .hidden {
   display: none;
 }
+
+.correct {
+  font-weight: bold;
+  font-size: larger;
+  color: green;
+}
+
+.wrong {
+  font-weight: bold;
+  font-size: larger;
+  color: red;
+}
+
